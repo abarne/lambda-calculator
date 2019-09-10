@@ -29,7 +29,9 @@
 	margin: 5px;
 	background: rgb(10, 55, 100);
 	color: white;
-	border: 1px solid black;
+	border: none;
+	box-shadow: 5px 10px 10px -4px black;
+
 	align-items: center;
 	justify-content: center;
 }
@@ -41,7 +43,6 @@
 }
 
 .number_special {
-	border: 1px solid black;
 	width: 70%;
 	display: flex;
 	justify-content: space-between;
