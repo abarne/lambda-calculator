@@ -57,6 +57,7 @@
 	flex-direction: column;
 	text-align: end;
 	background: rgb(18, 95, 126);
+	margin-bottom: 20px;
 }
 .top_button {
 	width: 80%;
