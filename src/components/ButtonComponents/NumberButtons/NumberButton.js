@@ -2,7 +2,7 @@ import React from 'react';
 
 const NumberButton = (props) => {
 	return (
-		<button>
+		<button className="button">
 			<span>{props.numbers}</span>
 		</button>
 	);

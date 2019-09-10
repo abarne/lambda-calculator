@@ -19,10 +19,15 @@ function App() {
 	return (
 		<div className="container">
 			<Logo />
+			<button className="top_button">0</button>
 			<div className="App">
-				<Numbers />
-				<Operators />
-				<Specials />
+				<div className="number_special">
+					<Numbers />
+					<Specials />
+				</div>
+				<div className="operators">
+					<Operators />
+				</div>
 			</div>
 		</div>
 	);
